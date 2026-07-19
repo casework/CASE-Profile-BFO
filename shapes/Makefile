@@ -28,7 +28,7 @@ test_pys := $(wildcard test_*.py)
 # by owl:imports, including UCO.  Non-shapes graphs are delegated to
 # ../ontology/generated-dependencies.ttl.
 generated_dependencies_ttls := \
-  $(top_srcdir)/dependencies/UCO-Profile-Example/dependencies/CDO-Shapes-Example/shapes/sh-example.ttl \
+  $(top_srcdir)/dependencies/UCO-Profile-BFO/dependencies/CDO-Shapes-BFO/shapes/sh-bfo.ttl \
   $(case_srcdir)/tests/case_monolithic.ttl
 
 ttl_basenames := $(wildcard sh-*.ttl)
