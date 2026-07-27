@@ -1,5 +1,5 @@
 # imports: http://example.org/ontology/uco-bfo
-# imports: https://ontology.caseontology.org/case/case/1.4.0
+# imports: https://ontology.caseontology.org/case/case/1.5.0
 
 @prefix drafting: <http://example.org/ontology/drafting/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -11,7 +11,7 @@
 	a owl:Ontology ;
 	owl:imports
 		<http://example.org/ontology/uco-bfo> ,
-		<https://ontology.caseontology.org/case/case/1.4.0>
+		<https://ontology.caseontology.org/case/case/1.5.0>
 		;
 	.
 
