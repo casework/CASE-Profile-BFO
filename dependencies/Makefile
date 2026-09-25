@@ -25,7 +25,7 @@ all: \
 
 .PHONY: \
   check-supply-chain \
-  check-supply-chain-UCO-Profile-Example
+  check-supply-chain-UCO-Profile-BFO
 
 $(case_srcdir)/.venv.done.log:
 	$(MAKE) \
@@ -48,14 +48,14 @@ check: \
 # supply chain rule.  This recursive check is expected to be called most
 # typically by the top_srcdir recipe check-supply-chain-dependencies.
 check-supply-chain: \
-  check-supply-chain-UCO-Profile-Example
+  check-supply-chain-UCO-Profile-BFO
 
-check-supply-chain-UCO-Profile-Example:
+check-supply-chain-UCO-Profile-BFO:
 	$(MAKE) \
-	  --directory UCO-Profile-Example \
+	  --directory UCO-Profile-BFO \
 	  check-supply-chain-dependencies
 	$(MAKE) \
-	  --directory UCO-Profile-Example \
+	  --directory UCO-Profile-BFO \
 	  check-supply-chain
 
 clean:
