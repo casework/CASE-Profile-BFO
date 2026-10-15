@@ -2,4 +2,5 @@ http://example.org/ontology/case-bfo	${top_srcdir}/ontology/case-bfo.ttl
 http://example.org/ontology/uco-bfo	${top_srcdir}/dependencies/UCO-Profile-BFO/ontology/uco-bfo.ttl
 http://example.org/shapes/sh-bfo	${top_srcdir}/dependencies/UCO-Profile-BFO/dependencies/CDO-Shapes-BFO/shapes/sh-bfo.ttl
 http://example.org/shapes/sh-case-bfo	${top_srcdir}/shapes/sh-case-bfo.ttl
+http://example.org/shaeps/sh-uco-bfo	${top_srcdir}/dependencies/UCO-Profile-BFO/shapes/sh-uco-bfo.ttl
 http://purl.obolibrary.org/obo/bfo/2020/bfo-core.ttl	${top_srcdir}/dependencies/UCO-Profile-BFO/dependencies/CDO-Shapes-BFO/dependencies/formatted-BFO.ttl

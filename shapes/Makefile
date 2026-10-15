@@ -29,6 +29,7 @@ test_pys := $(wildcard test_*.py)
 # ../ontology/generated-dependencies.ttl.
 generated_dependencies_ttls := \
   $(top_srcdir)/dependencies/UCO-Profile-BFO/dependencies/CDO-Shapes-BFO/shapes/sh-bfo.ttl \
+  $(top_srcdir)/dependencies/UCO-Profile-BFO/shapes/sh-uco-bfo.ttl \
   $(case_srcdir)/tests/case_monolithic.ttl
 
 ttl_basenames := $(wildcard sh-*.ttl)

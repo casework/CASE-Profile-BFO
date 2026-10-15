@@ -47,6 +47,7 @@
     <uri id="User Entered Import Resolution" uri="../dependencies/UCO-Profile-BFO/dependencies/CDO-Shapes-BFO/dependencies/formatted-BFO.ttl" name="http://purl.obolibrary.org/obo/bfo/2020/bfo-core.ttl"/>
     <uri id="User Entered Import Resolution" uri="../dependencies/UCO-Profile-BFO/dependencies/CDO-Shapes-BFO/shapes/sh-bfo.ttl" name="http://example.org/shapes/sh-bfo"/>
     <uri id="User Entered Import Resolution" uri="../dependencies/UCO-Profile-BFO/ontology/uco-bfo.ttl" name="http://example.org/ontology/uco-bfo"/>
+    <uri id="User Entered Import Resolution" uri="../dependencies/UCO-Profile-BFO/shapes/sh-uco-bfo.ttl" name="http://example.org/shapes/sh-uco-bfo"/>
     <uri id="User Entered Import Resolution" uri="../ontology/case-bfo.ttl" name="http://example.org/ontology/case-bfo"/>
     <uri id="User Entered Import Resolution" uri="sh-case-bfo.ttl" name="http://example.org/shapes/sh-case-bfo"/>
 </catalog>
